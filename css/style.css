@@ -1,0 +1,50 @@
+body {
+    background-color:#3c3c3c;
+    text-align:center;
+}
+
+#container {
+    margin:20px;
+    position:relative;
+}
+
+#button {
+    position:absolute;
+    cursor:pointer;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:26px;
+    height:auto;
+    width:auto;
+    border-radius:4px;
+    color:#fff;
+    z-index:10;
+    background: #FF0000;
+    background-image: -webkit-linear-gradient(bottom, #380000 -20%, #C70000 80%);
+}
+
+#button:active {
+    background-image: -webkit-linear-gradient(bottom, #C70000 20%, #380000 120%);
+}
+
+#btn-text {
+    padding:2px 10px 2px 10px;
+}
+
+#content {
+    margin:0 auto;
+    display:none;
+    text-align:center;
+    height:auto;
+    width:500px;
+    border:2px solid #fefefe;
+    border-radius:5px;
+    background-color:#4e4e4e;
+}
+
+#content-text {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:24px;
+    color:#fefefe;
+}
